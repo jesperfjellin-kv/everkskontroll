@@ -1,7 +1,7 @@
 option batch abort
 option confirm off
-open davs://nextcloud.kartverket.no/remote.php/dav/files/43EB2D26-104E-4AD0-A3BE-1A6022545A10/ -username=fjejes -password=9Zs3B-qGiSz-QfMK3-4mQbz-RRWGC
-synchronize local "C:\FKKOslo\Kartkontroll\Ledning_fra_everk\Nextcloud" "/remote.php/dav/files/43EB2D26-104E-4AD0-A3BE-1A6022545A10/Kontroll_nettselskaper/"
+open davs://NEXTCLOUD-ADDRESSE-HER
+synchronize local "C:\FKKOslo\Kartkontroll\Ledning_fra_everk\Nextcloud" "NEXTCLOUD-ADDRESSE-HER"
 close
 exit
 
